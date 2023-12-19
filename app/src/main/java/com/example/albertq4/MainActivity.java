@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void lol(View view) {
         counter++;
-        btn.setText("This is click number: "+counter);
+        btn.setText("This is click number:"+counter);
         if(counter % 7 == 0)
         {
             btn.setText("Boom");
